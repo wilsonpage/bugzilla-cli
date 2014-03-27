@@ -1,0 +1,9 @@
+{
+  "name": "bugzilla-cli",
+  "description" : "Command line tool to operate with bugzilla",
+  "url" : "https://github.com/dmarcos/dashboardjs",
+  "keywords" : ["bugzilla", "bug", "cli", "command"],
+  "author" : "Diego Marcos <diego.marcos@gmail.com>",
+  "version": "0.0.1",
+  "bin": { "bug" : "./bug" }
+}
