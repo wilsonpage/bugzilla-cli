@@ -1,9 +1,20 @@
 {
   "name": "bugzilla-cli",
-  "description" : "Command line tool to operate with bugzilla",
-  "url" : "https://github.com/dmarcos/bugzilla-cli",
-  "keywords" : ["bugzilla", "bug", "cli", "command"],
-  "author" : "Diego Marcos <diego.marcos@gmail.com>",
+  "description": "Command line tool to operate with bugzilla",
+  "url": "https://github.com/dmarcos/bugzilla-cli",
+  "keywords": [
+    "bugzilla",
+    "bug",
+    "cli",
+    "command"
+  ],
+  "author": "Diego Marcos <diego.marcos@gmail.com>",
   "version": "0.0.1",
-  "bin": { "bug" : "./bug" }
+  "bin": {
+    "bug": "./bug"
+  },
+  "dependencies": {
+    "request": "~2.34.0",
+    "commander": "~2.2.0"
+  }
 }
